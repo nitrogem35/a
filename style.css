@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 198, 152);
+    font-family: 'Orbitron';
+}
+input {
+    font-family: 'Orbitron';
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.014);
+}
+input:focus, textarea:focus {
+    outline: 0;
+}
