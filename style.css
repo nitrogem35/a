@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 130vh;
     font-family: "Orbitron";
     background: linear-gradient(51deg, #6f95ff, #8dfe8a);
     background-size: 400% 400%;
@@ -28,6 +28,35 @@ body {
     -webkit-animation: Animationn 14s ease infinite;
     -moz-animation: Animationn 14s ease infinite;
     animation: Animationn 14s ease infinite;
+  }
+  h2 {
+    color: white;
+    margin-left: 25%;
+    width: 66%;
+    text-align: center;
+  }
+  table {
+    color: white;
+    margin-left: 30%;
+    width: 66%;
+    height: 80%;
+    text-align: left;
+    font-size: 120%;
+  }
+  td {
+    padding-right: 5vw;
+  }
+  .border-2px{
+	border-bottom: 3px solid #afafaf !important;
+  }
+  #pageContainer{
+	background-color:#000000;
+  height: 90%;
+  min-height: 700px;
+	margin-top: 15px;
+	margin-bottom:15px;
+	border-radius:6px;
+	border:1px solid #4a4a4a;
   }
   #searchButton{
     font-family: "Orbitron";
@@ -79,6 +108,19 @@ body {
       min-block-size: 26.2px;
       max-block-size: 26.2px;
       top: 25px;
+    }
+    table {
+      color: white;
+      height: 80%;
+      margin-left: 20%;
+      text-align: left;
+      font-size: 100%;
+    } 
+    h2 {
+      color: white;
+      margin-left: 15%;
+      text-align: center;
+      font-size: 120%;
     }
   }
   
