@@ -1,6 +1,6 @@
 var socket = new WebSocket("wss://XD.nitrogem35.repl.co")
 socket.onopen = function(){
-  socket.send("pointstaken")
+  socket.send("pointsneutralized")
 }
 socket.onmessage = function(event) {
   let lbArray = [];
