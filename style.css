@@ -57,7 +57,7 @@ body {
   margin-top: 15px;
   margin-bottom:15px;
   border-radius:6px;
-  border: 1px solid #c9c9c9;
+  border: 1px solid #ffffff;
   }
   #searchButton{
     font-family: "Orbitron";
@@ -149,6 +149,10 @@ body {
     border-radius: 10px;
   }
   
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7f8081; 
+  }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #7f8081; 
