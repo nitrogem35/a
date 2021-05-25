@@ -8,5 +8,10 @@ socket.onmessage = function(event) {
   for(let i = 0; i < 60; i+=3) {
     lbArray.push([event[i], event[i+1], event[i+2]])
   }
+  let i = 0;
+  document.getElementsByTagName("td").forEach(element => {
+    element.innerHTML = lbArray[i]
+    i++
+  })
   console.log(lbArray)
 }
