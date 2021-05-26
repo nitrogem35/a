@@ -16,6 +16,7 @@ socket.onmessage = function(event) {
   }
   else {
     document.getElementsByClassName("leaderboardType")[0].innerText = event.toString().replace(/,/g, ' ')
-    document.getElementsByTagName("th")[2].innerText = event.shift().toString().replace(/,/g, ' ')
+    event.shift()
+    document.getElementsByTagName("th")[2].innerText = event.toString().replace(/,/g, ' ')
   }
 }
